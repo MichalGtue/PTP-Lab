@@ -219,7 +219,7 @@ for i in range(0,8):
     ax[i].grid(True)
     ax[i].set_xlim(0,15)
     ax[i].legend()
-fig.suptitle('T200_PV Temperature Data over Time', fontsize=16) # Adjust layout to prevent label overlap and set a global title
+fig.suptitle('Temperature = 30C', fontsize=16) # Adjust layout to prevent label overlap and set a global title
 plt.tight_layout(rect=[0, 0, 1, 0.95])  # fixes overlap
 plt.show()
 
